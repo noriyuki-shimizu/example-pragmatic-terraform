@@ -21,3 +21,21 @@ tfファイルについては、書籍内のコードのキャプション番号
 ## License
 
 Apache 2 Licensed. See LICENSE for full details.
+
+## バージョン管理システム
+バージョン管理システムでは `tfenv` を使用します。
+
+```
+$ brew install terraform
+$ brew unlink terraform
+$ brew install tfenv
+$ tfenv -v
+$ tfenv list-remote
+$ tfenv install 0.12.5
+$ tfenv use 0.12.5
+$ terraform -v
+Terraform v0.12.5
+
+Your version of Terraform is out of date! The latest version
+is 0.15.4. You can update by downloading from www.terraform.io/downloads.html
+```
